@@ -32,7 +32,7 @@ nav ul li a{
   background-color: #FFD9CE;
   font-family: Georgia;
   font-size: 32px;
-  transition: letter-spacing 600ms
+  transition: letter-spacing 600ms;
 }
 
 nav ul li a:hover{
@@ -121,6 +121,7 @@ footer p.top{
 @media screen and (max-width:768px) and (min-width:320px){
   nav ul li a{
     font-size: 20px;
+    background-color: black;
   }
 
   section article h1{
