@@ -28,8 +28,8 @@ nav ul li a{
   text-decoration: none;
   text-align: center;
   line-height: 100px;
-  color: blue;
-  background-color: black;
+  color: black;
+  background-color: #FFD9CE;
   font-family: Georgia;
   font-size: 32px;
   transition: letter-spacing 600ms;
