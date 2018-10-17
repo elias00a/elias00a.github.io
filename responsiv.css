@@ -142,6 +142,17 @@ footer p.top{
 @media screen and (max-width:320px){
   section article{
     width: 90%;
+    float: none;
   }
-  
+
+  nav ul li a{
+    background-color: black;
+    color: white;
+  }
+
+  figure.cats{
+    float: none;
+  }
+
+
 }
