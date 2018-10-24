@@ -48,7 +48,11 @@ figure{
 figure img{
   max-width: 100%;
   display: block;
+}
 
+figure img.ny{
+  max-width: 100%;
+  display: none;
 }
 
 section{
@@ -115,6 +119,11 @@ footer p.top{
     width: 42.5%;
   }
 
+  figure.cats{
+    border: none;
+    outline: solid 5px #FFD9CE;
+  }
+
 
 }
 
@@ -133,6 +142,16 @@ footer p.top{
     width: 90%;
   }
 
+figure img{
+  max-width: 100%;
+  display: none;
+}
+
+figure img.ny{
+  max-width: 100%;
+  display: block;
+}
+
   footer p{
       font-size: 12px;
   }
@@ -142,6 +161,10 @@ footer p.top{
     outline: solid 5px #FFD9CE;
     border: none;
     width: 90%;
+  }
+
+  figure.cats img{
+    display: block;
   }
 
 
